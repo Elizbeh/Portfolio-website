@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from '../../assets/images/hero.svg'
+import heroImg from '../../assets/images/hero.png'
 import CountUp from 'react-countup'
 function Hero() {
   return (
@@ -73,6 +73,41 @@ function Hero() {
                 </div>
           </div>
           {/*============ hero left end ============*/}
+          {/*============ hero img ============*/}
+          <div className='basis-1/3 mt-10 sm:mt-0'>
+            <figure className='flex items-center justify-center '>
+              <img src={heroImg} className='rounded-t-full rounded-b-full rounded-l-3/4 rounded-r-3/4 w-full h-auto' alt='Hero'/>
+            </figure>
+          </div>
+          {/*============ hero img end ============*/}
+          <div className='md:basis-1/5 flex justify-between text-center 
+          mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>
+            <div className='mb-10'>
+              <h4 className="text-headingColor font-[600] text-[18px]">
+                Year of Accademic Training
+              </h4>
+              <h2 className='text-headingColor font-[700] text-[32px]'>
+                <CountUp start={0} end={2} duration={2}/>
+              </h2>
+              <h4 className="text-headingColor font-[600] text-[18px]">
+                Project Success Rate
+              </h4>
+              <h2 className='text-headingColor font-[700] text-[32px]'>
+                <CountUp start={0} end={110} duration={2} suffix='+'/>
+              </h2>
+              <h4 className="text-headingColor font-[600] text-[18px]">
+                Ready to Collaborate
+              </h4>
+              <h2 className='text-headingColor font-[700] text-[32px]'>
+                <CountUp start={0} end={70} duration={2} suffix='%'/>
+              </h2>
+              <h4 className="text-headingColor font-[600] text-[18px]">
+                Project completed
+              </h4>
+            </div>
+          </div>
+          {/*============ hero content right ============*/}
+          {/*============ hero content right end ============*/}
         </div>
       </div>
     </section>

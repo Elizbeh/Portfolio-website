@@ -23,16 +23,16 @@ function Header() {
           <div className="menu">
             <ul className="flex items-center gap-10">
               <li>
-                <a className="text-smallTextColor font-[600]"  href="#About">About</a>
+                <a className="text-smallTextColor font-[600] hover:text-primaryColor ease-out duration-300"  href="#About">About</a>
               </li>
               <li>
-                <a className="text-smallTextColor font-[600]" href="#Services">Services</a>
+                <a className="text-smallTextColor font-[600] hover:text-primaryColor ease-out duration-300" href="#Services">Services</a>
               </li>
               <li>
-                <a className="text-smallTextColor font-[600]" href="#Portfolio">Portfolio</a>
+                <a className="text-smallTextColor font-[600] hover:text-primaryColor ease-out duration-300" href="#Portfolio">Portfolio</a>
               </li>
               <li>
-                <a className="text-smallTextColor font-[600]" href="#Contact">Contact</a>
+                <a className="text-smallTextColor font-[600] hover:text-primaryColor ease-out duration-300" href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
